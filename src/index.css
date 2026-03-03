@@ -3,3 +3,13 @@
 body{
     overflow-x: hidden;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom breakpoint utility for min-width:450px to approximate 450-1024 layout */
+@media (min-width: 450px) {
+  .from-450-flex-row { display: flex; flex-direction: row; }
+  .from-450-items-start { align-items: flex-start; }
+}
